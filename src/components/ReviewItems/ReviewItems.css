@@ -1,0 +1,10 @@
+.review-item{
+    border-radius: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    transition: transform 1s linear;
+}
+.review-item:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transform: scale(1.05);
+    background-color: #f1f5f9;
+}

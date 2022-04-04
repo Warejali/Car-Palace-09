@@ -1,0 +1,12 @@
+.composedChart{
+    width: 60%;
+    padding: 20px;
+    border: 1px solid rgb(223, 223, 223);
+    margin: 20px;
+}
+.pieChart{
+    width: 40%;
+    padding: 20px;
+    border: 1px solid rgb(223, 223, 223);
+    margin: 20px;
+}
