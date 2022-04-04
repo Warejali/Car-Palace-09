@@ -11,10 +11,10 @@ const Home = () => {
         <div className='container mx-auto'>
             <div className='flex justify-around'>
                 <div className='banner-text flex flex-col items-center justify-center'>
-                    <h2 className='banner-heading text-4xl w-50'>Best Car and Auto</h2>
-                    <h2 className='banner-heading text-4xl w-50'>Better experience with us</h2>
+                    <h2 className='banner-heading text-4xl font-bold uppercase'><span className='text-slate-600'>Best Car and Auto</span></h2>
+                    <h2 className='banner-heading text-4xl font-bold uppercase  py-5'><span className='text-slate-500'>Better experience with us</span></h2>
                     <p>Consumer Reports has tested cars for over 85 years. From researching and buying new or used cars to owning and maintaining them, our car experts are with you every step of the way.</p>
-                    <button>Check details</button>
+                    <button className='bg-slate-700 text-white px-5 py-3 rounded-md my-5'>Check details</button>
                 </div>
                 <div className='img-part w-50'>
                     <img src={car} alt="" />
