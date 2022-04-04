@@ -1,5 +1,5 @@
 import React from 'react';
-import './ReviewItems.css'
+import './ReviewItems.css';
 
 const ReviewItems = (props) => {
     const { name, content, ratings, image } = props.review
@@ -13,7 +13,7 @@ const ReviewItems = (props) => {
                     <h4 className='text-2xl mt-5'>{name}</h4>
                     <p><i>{content}</i></p>
                     <small>
-                    Ratings : <span>{ratings}</span>
+                    Ratings :<span className='font-bold'> {ratings}</span>
                     </small>
                 </div>
             </div>

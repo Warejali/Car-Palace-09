@@ -3,7 +3,7 @@ import useReviews from '../../hooks/Reviews/useReviews';
 import ReviewItems from '../ReviewItems/ReviewItems';
 
 const Reviews = () => {
-    const [reviews, setReviews,] = useReviews([])
+    const [reviews, ] = useReviews([])
     return (
         <div className='container mx-auto mt-20'>
             <div className='grid md:grid-cols-3 gap-10'>
