@@ -1,6 +1,6 @@
 # CAR PALACE
 
-Our live website link [CAR PALACE](https://product-analysis-website-warejali.netlify.app/).
+Our live website link: [https://product-analysis-website-warejali.netlify.app](https://product-analysis-website-warejali.netlify.app/).
 
 
 
